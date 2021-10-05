@@ -1,0 +1,181 @@
+@charset UTF-8;
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+div,
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #333;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+#app {
+    margin: 0 auto;
+    max-width: 400px;
+    min-height: 100vh;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    /* height: 20px; */
+}
+
+.heading__box {
+    flex: 0 0 33%;
+}
+
+.heading__box.box-2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.heading__box.box-3 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12px;
+}
+
+.heading__box.box-3 .icon {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.first-profile {
+    padding: 16px;
+}
+
+.first-profile__top {
+    display: flex;
+    align-items: center;
+}
+
+.first-profile__top-left {
+    flex: 0 0 35%;
+}
+
+.first-profile__photo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    width: 96px;
+    height: 96px;
+    border: 1px solid #999999;
+    border-radius: 50%;
+}
+
+.first-profile__myphoto {
+    width: 88px;
+    height: auto;
+}
+
+.first-profile__top-right {
+    flex: 0 0 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px 0 20px;
+}
+
+.first-profile__top-ffbox {
+    text-align: center;
+}
+
+.first-profile__top-ff-num {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.first-profile__top-ff-dtl {
+    font-size: 10px;
+}
+
+.first-profile__middle {
+    padding: 12px 0;
+}
+
+.first-profile__middle-name {
+    padding: 4px 0 12px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.first-profile__middle-attr {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.first-profile__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-profile__bottom-button {
+    flex: 0 0 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+}
+
+.jumper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0 1px 0;
+    height: 40px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.jumper__box {
+    flex: 0 0 25%;
+    text-align: center;
+}
+
+.jumper__box .icon {
+    font-size: 20px;
+    color: #AAAAAA;
+}
+
+@media screen and (min-width: 401px) {
+    #app {
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+    }
+}
