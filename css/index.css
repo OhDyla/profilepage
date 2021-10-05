@@ -43,6 +43,12 @@ h5 {
     min-height: 100vh;
 }
 
+.title {
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-family: 'Orbitron', sans-serif;
+}
+
 .heading {
     display: flex;
     align-items: center;
