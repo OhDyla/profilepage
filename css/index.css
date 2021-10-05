@@ -179,6 +179,13 @@ h5 {
     color: #AAAAAA;
 }
 
+.footing {
+    height: 60px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 52px;
+}
+
 @media screen and (min-width: 401px) {
     #app {
         border-left: 1px solid #DDDDDD;

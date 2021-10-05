@@ -4,6 +4,7 @@ const router = new VueRouter({
         { path: '/page2', component: httpVueLoader('./vue/page2.vue') },
         { path: '/page3', component: httpVueLoader('./vue/page3.vue') },
         { path: '/page4', component: httpVueLoader('./vue/page4.vue') },
+        { path: '/history', component: httpVueLoader('./vue/history.vue') },
     ]
 })
 

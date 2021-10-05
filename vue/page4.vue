@@ -1,5 +1,9 @@
 <template>
-  <div>しゅみについてかくよ</div>
+<div>
+  <Hero></Hero>
+  <Jumper activater=4></Jumper>
+  <div class="div2">しゅみについてかくよ</div>
+</div>
 </template>
 
 <script>
@@ -8,12 +12,16 @@ module.exports = {
     return {
       title: 'page1.vue'
     }
+  },
+  components: {
+    'Hero': httpVueLoader('./hero.vue'),
+    'Jumper': httpVueLoader('./jumper.vue')
   }
 }
 </script>
 
 <style scoped>
-div {
+.div2 {
   padding: 8px;
 }
 </style>

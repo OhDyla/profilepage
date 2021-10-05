@@ -1,6 +1,9 @@
 <template>
+<div>
+  <Hero></Hero>
+  <Jumper activater=1></Jumper>
   <div class="main-vue">
-    <div v-for="n in 5" class="tile">
+    <div v-for="n in 16" class="tile">
       <img src="">
     </div>
     <div class="tile">bbb
@@ -10,6 +13,7 @@
       <img src="">
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -18,6 +22,10 @@ module.exports = {
     return {
       title: 'page1.vue'
     }
+  },
+  components: {
+    'Hero': httpVueLoader('./hero.vue'),
+    'Jumper': httpVueLoader('./jumper.vue')
   }
 }
 </script>
