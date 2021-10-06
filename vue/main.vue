@@ -1,7 +1,7 @@
 <template>
 <div>
   <Hero></Hero>
-  <Jumper activater=1></Jumper>
+  <Jumper :activator="1"></Jumper>
   <div class="main-vue">
     <div v-for="n in 16" class="tile">
       <img src="">

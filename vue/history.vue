@@ -7,6 +7,11 @@
       <div class="history__box-wrapeer">
         <div class="history__box">
           <div class="history__box-photo-wrapper"></div>
+          <div class="hisotory__box-detail">ワクチン2回目を接種しました。<span class="hisotory__box-detail-month">8月</span></div>
+          <div class="hisotory__box-tag is-deactive">その他</div>
+        </div>
+        <div class="history__box">
+          <div class="history__box-photo-wrapper"></div>
           <div class="hisotory__box-detail">東京都江東区に移住しました。<span class="hisotory__box-detail-month">2月</span></div>
           <div class="hisotory__box-tag is-deactive">移住</div>
         </div>
@@ -77,7 +82,7 @@
         </div>
         <div class="history__box">
           <div class="history__box-photo-wrapper"></div>
-          <div class="hisotory__box-detail"><span class="history__bold">新潟県立新潟高校</span>を卒業しました。<span class="hisotory__box-detail-month">3月</span></div>
+          <div class="hisotory__box-detail"><span class="history__bold">新潟県立新潟高等学校</span>を卒業しました。<span class="hisotory__box-detail-month">3月</span></div>
           <div class="hisotory__box-tag">修業</div>
         </div>
       </div>

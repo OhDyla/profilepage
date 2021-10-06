@@ -1,7 +1,7 @@
 <template>
 <div>
   <Hero></Hero>
-  <Jumper activater=2></Jumper>
+  <Jumper :activator="2"></Jumper>
   <div class="who">
     <div class="who__title-box">
       <img class="who__title-img" src="../static/page2/cat.jpg">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero></Hero>
-    <Jumper activater=3></Jumper>
+    <Jumper :activator="3"></Jumper>
     <div class="div2">技術について書くよ</div>
   </div>
 </template>
