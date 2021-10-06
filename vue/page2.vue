@@ -4,8 +4,8 @@
   <Jumper activater=2></Jumper>
   <div class="who">
     <div class="who__title-box">
-      <img class="who__title-img">
-      <div class="who__title-title">自己紹介</div>
+      <img class="who__title-img" src="../static/page2/cat.jpg">
+      <div class="who__title-title">プロフィール</div>
     </div>
     <div class="who__details">
       <div class="who__detail">
@@ -21,12 +21,12 @@
         その傍ら弊学大学祭「芝浦祭」の実行委員会に所属。2020年11月より第49回芝浦祭実行委員長に就任。
       </div>
       <div class="who__detail">
-        Web系開発会社に就業中。<br>業務歴約1年半。主にフロント側が Vue3 + TypeScript (/JS) バック側が Go + Revel を使用。
+        Web系開発会社に就業中。<br>業務歴合計約1年半。主にフロント側が Vue3 + TypeScript (/JS) バック側が Go + Revel を使用。
       </div>
     </div>
 
     <div class="who__title-box">
-      <img class="who__title-img">
+      <img class="who__title-img" src="../static/page2/beer.jpg">
       <div class="who__title-title">情報工学科での活動</div>
     </div>
     <div class="who__details">
@@ -46,7 +46,7 @@
     </div>
 
     <div class="who__title-box">
-      <img class="who__title-img">
+      <img class="who__title-img" src="../static/page2/suica.jpg">
       <div class="who__title-title">芝浦祭実行委員会での活動</div>
     </div>
     <div class="who__details">
@@ -61,12 +61,18 @@
         キャンパス開催 (在学生のみ対象) およびオンライン開催によるハイブリッド形式。<br>
       </div>
       <div class="who__detail">
+        <a href="http://shibaurasai.com/" target="_blank" class="who__detail-a">
+        <i class="fas fa-external-link-alt"></i>
+        <span style="text-decoration: underline">第49回芝浦祭公式HP</span>
+        </a>
+      </div>
+      <div class="who__detail">
         ぜひ見てね。
       </div>
     </div>
 
     <div class="who__title-box">
-      <img class="who__title-img">
+      <img class="who__title-img" src="../static/page2/panda.jpg">
       <div class="who__title-title">エンジニアとしての活動</div>
     </div>
     <div class="who__details">
@@ -75,7 +81,7 @@
       </div>
     <router-link tag="div" to="/page3" class="who__detail is-link">
       <i class="fas fa-link who__detail-icon"></i>
-      JUMP!
+      <span style="text-decoration: underline">JUMP!</span>
     </router-link>
     </div>
   </div>
@@ -105,7 +111,7 @@ module.exports = {
 .who__title-box {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .who__title-img {
@@ -156,8 +162,11 @@ module.exports = {
 .who__detail.is-link {
   font-size: 18px;
   font-weight: bold;
-  color: #DDDDDD;
   line-height: 24px;
+}
+
+.who__detail-a {
+  color: white;
 }
 
 .who__detail-icon {

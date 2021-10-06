@@ -134,12 +134,12 @@ h5 {
 
 .first-profile__middle-name {
     padding: 4px 0 12px 0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
 }
 
 .first-profile__middle-attr {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 20px;
 }
 
@@ -154,9 +154,9 @@ h5 {
     justify-content: center;
     align-items: center;
     height: 30px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
-    border: 1px solid #AAAAAA;
+    border: 1px solid #CCCCCC;
     border-radius: 4px;
 }
 
