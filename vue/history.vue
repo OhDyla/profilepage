@@ -95,7 +95,7 @@
       <div class="history__box-wrapeer">
         <div class="history__box">
           <div class="history__box-photo-wrapper">
-            <div class="history__box-photo is-null"></div>
+            <img src="../static/history/jujo.jpg" class="history__box-photo">
           </div>
           <div class="hisotory__box-detail">東京都北区に移住しました。<span class="hisotory__box-detail-month">4月</span></div>
           <div class="hisotory__box-tag is-deactive">移住</div>
@@ -114,14 +114,14 @@
       <div class="history__box-wrapeer">
         <div class="history__box">
           <div class="history__box-photo-wrapper">
-            <div class="history__box-photo is-null"></div>
+            <img src="../static/history/tennis.jpg" class="history__box-photo">
           </div>
           <div class="hisotory__box-detail">硬式テニス部, クイズ研究会に入部しました。<span class="hisotory__box-detail-month">4月</span></div>
           <div class="hisotory__box-tag is-deactive">課外活動</div>
         </div>
         <div class="history__box">
           <div class="history__box-photo-wrapper">
-            <div class="history__box-photo is-null"></div>
+            <img src="../static/history/kentaka.jpg" class="history__box-photo">
           </div>
           <div class="hisotory__box-detail"><span class="history__bold">新潟県立新潟高等学校</span>に入学しました。<span class="hisotory__box-detail-month">4月</span></div>
           <div class="hisotory__box-tag">入学</div>
@@ -133,16 +133,16 @@
       <div class="history__box-wrapeer">
         <div class="history__box">
           <div class="history__box-photo-wrapper">
-            <div class="history__box-photo is-null"></div>
+            <img src="../static/history/robocup.png" class="history__box-photo">
           </div>
-          <div class="hisotory__box-detail"><span class="history__bold">RoboCup2008&nbsp;JapanOpen Osaka</span>&nbsp;にてジュニア部門第5位受賞。</div>
+          <div class="hisotory__box-detail"><span class="history__bold">RoboCup2007&nbsp;JapanOpen Osaka</span>&nbsp;にてジュニア部門第5位受賞。</div>
           <div class="hisotory__box-tag is-deactive">獲得</div>
         </div>
         <div class="history__box">
           <div class="history__box-photo-wrapper">
             <div class="history__box-photo is-null"></div>
           </div>
-          <div class="hisotory__box-detail"><span class="history__bold">RoboCup2008&nbsp;北信越大会</span>&nbsp;にてジュニア部門優勝。</div>
+          <div class="hisotory__box-detail"><span class="history__bold">RoboCup2007&nbsp;北信越大会</span>&nbsp;にてジュニア部門優勝。</div>
           <div class="hisotory__box-tag is-deactive">獲得</div>
         </div>
       </div>
