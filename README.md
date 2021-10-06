@@ -8,10 +8,8 @@
 - vue-router CDN
 - http-vue-loader CDN
 
-- JavaScript
-- CSS
-- font awsome
-- Google Fonts
+その他、JavaScript・CSS(BEM)・font awsome・Google Fonts
 
 ## 技術選定
 普段は Vue3 + Composition-API + Vite を使用しておりますが、nodeをインストールできないサーバを利用するにあたり、全てCDNで完結する環境を構築しました。
+SCSSもCDN上で実行できるとのことでしたが、パフォーマンス上の懸念や今後のバージョン対応も含めCSSのハードコーディングでスタイリングしました。
