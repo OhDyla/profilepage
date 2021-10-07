@@ -28,7 +28,7 @@
       </div>
     </div>
     <div class="first-profile__bottom">
-      <router-link tag="div" to="/page2" class="first-profile__bottom-button">
+      <router-link tag="div" to="/" class="first-profile__bottom-button">
         プロフィール
       </router-link>
       <a href="https://qiita.com/OhDyla" target="_blank" class="first-profile__bottom-button is-qiita">
@@ -58,4 +58,7 @@ module.exports = {
   display: inline-block;
   margin-left: 8px;
 }
+
+
+
 </style>

@@ -1,7 +1,5 @@
 <template>
 <div>
-  <Hero></Hero>
-  <Jumper :activator="2"></Jumper>
   <div class="who">
     <div class="who__title-box">
       <img class="who__title-img" src="../static/page2/cat.jpg">
@@ -79,7 +77,7 @@
       <div class="who__detail">
         主な活動内容は以下を参照
       </div>
-    <router-link tag="div" to="/page3" class="who__detail is-link">
+    <router-link tag="div" to="/" class="who__detail is-link">
       <i class="fas fa-link who__detail-icon"></i>
       <span style="text-decoration: underline">JUMP!</span>
     </router-link>
@@ -96,8 +94,8 @@ module.exports = {
     }
   },
   components: {
-    'Hero': httpVueLoader('./hero.vue'),
-    'Jumper': httpVueLoader('./jumper.vue')
+    // 'Hero': httpVueLoader('./hero.vue'),
+    // 'Jumper': httpVueLoader('./jumper.vue')
   }
 }
 </script>

@@ -3,13 +3,13 @@
     <router-link tag="div" to="/" class="jumper__box" :class='{"is-active": activator === 1}'>
       <i class="fas fa-border-all icon"></i>
     </router-link>
-    <router-link tag="div" to="/page2" class="jumper__box" :class='{"is-active": activator === 2}'>
+    <router-link tag="div" to="/" class="jumper__box" :class='{"is-active": activator === 2}'>
       <i class="fas fa-user-check icon"></i>
     </router-link>
-    <router-link tag="div" to="/page3" class="jumper__box" :class='{"is-active": activator === 3}'>
+    <router-link tag="div" to="/" class="jumper__box" :class='{"is-active": activator === 3}'>
       <i class="fas fa-laptop icon"></i>
     </router-link>
-    <router-link tag="div" to="/page4" class="jumper__box" :class='{"is-active": activator === 4}'>
+    <router-link tag="div" to="/" class="jumper__box" :class='{"is-active": activator === 4}'>
       <i class="fas fa-beer icon"></i>
     </router-link>
   </div>
