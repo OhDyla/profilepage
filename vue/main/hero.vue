@@ -28,9 +28,9 @@
       </div>
     </div>
     <div class="first-profile__bottom">
-      <router-link tag="div" to="/" class="first-profile__bottom-button">
+      <div class="first-profile__bottom-button">
         プロフィール
-      </router-link>
+      </div>
       <a href="https://qiita.com/OhDyla" target="_blank" class="first-profile__bottom-button is-qiita">
         <i class="fas fa-external-link-alt"></i>
         <span class="first-profile__bottom-button-span">Qiita</span>

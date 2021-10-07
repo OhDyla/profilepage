@@ -9,8 +9,8 @@
       <router-link to="/history"><i class="far fa-clock"></i></router-link>
       <div @click="is_show = !is_show"><i class="fas fa-ellipsis-h icon"></i></div>
     </div>
-
   </header>
+
   <transition name="mordalback">
     <div v-if="is_show">
       <div @click="is_show = !is_show" class="mordal__back"></div>
@@ -21,6 +21,7 @@
       <Addition></Addition>
     </div>
   </transition>
+
 </div>
 </template>
 
