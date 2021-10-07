@@ -12,5 +12,8 @@ const router = new VueRouter({
 
 const app = new Vue({
     el: "#app",
+    components: {
+        'app-vue': httpVueLoader('./vue/app.vue')
+    },
     router
 });
